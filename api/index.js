@@ -1,4 +1,4 @@
-import app, { initApp } from "../src/app.controller.js";
+import app, { initApp } from "./src/app.controller.js";
 
 // Ensure Express application middleware, routes, and error handlers are initialized
 initApp();
