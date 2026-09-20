@@ -1,0 +1,4 @@
+# Project-level ignore for backend Vercel project (overrides root .vercelignore)
+.env
+.env.*
+!.env.example
