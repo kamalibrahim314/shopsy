@@ -8,6 +8,9 @@ import orderRouter from "./order/order.routes.js";
 import uploadRouter from "./upload/upload.routes.js";
 
 const router = Router();
+router.use("/", (req, res) => {
+    res.send("Welcome to the Shopsy API! Please refer to the documentation for available endpoints.");
+});
 
 router.use("/auth", authRouter);
 router.use("/users", userRouter);
