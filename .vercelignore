@@ -1,0 +1,5 @@
+# Exclude backend from frontend Vercel deployment & Serverless Function detection
+/api
+/api/
+api
+api/
