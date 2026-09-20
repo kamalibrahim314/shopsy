@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+import mysql2 from "mysql2";
 import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize(
@@ -12,6 +13,7 @@ export const sequelize = new Sequelize(
         host: process.env.MYSQL_HOST,
         port: Number(process.env.MYSQL_PORT ?? 4000),
         dialect: "mysql",
+        dialectModule: mysql2,
         logging: false,
         timezone: process.env.MYSQL_TIMEZONE || "+00:00",
 
