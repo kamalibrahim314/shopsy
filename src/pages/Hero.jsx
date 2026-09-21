@@ -10,7 +10,7 @@ const Hero = ({ handlePopup }) => {
             tag: "Autumn / Winter 2026 Collection",
             title: "Timeless Tailoring & Modern Luxury",
             subtitle: "Discover statement wool trench coats, Grade-A cashmere knitwear, and effortless silhouettes crafted for the discerning wardrobe.",
-            image: "https://images.unsplash.com/photo-1539533018447-63fcce667883?w=800&auto=format&fit=crop&q=80",
+            image: "https://images.asos-media.com/products/asos-design-backless-waterfall-sleeve-ruched-side-mini-dress-in-black/209897405-1-black?$n_1920w$&wid=1926&fit=constrain",
             link: "/shop?category=women-wear",
             cta: "Explore Women's",
             badge: "New Season",
